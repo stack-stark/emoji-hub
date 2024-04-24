@@ -1,0 +1,35 @@
+{
+  "private": false,
+  "author": "stack-stack <tostack@163.com>",
+  "name": "emoji-hub",
+  "version": "1.0.0",
+  "description": "这是一个使用 umi4 构建的 emoji 网站，通过分类展示各种 emoji，支持搜索功能。配合 vscode 插件快捷 emoji，可以快速查看以及使用 emoji。",
+  "license": "MIT",
+  "scripts": {
+    "dev": "max dev",
+    "build": "max build",
+    "format": "prettier --cache --write .",
+    "prepare": "husky",
+    "postinstall": "max setup",
+    "setup": "max setup",
+    "start": "npm run dev"
+  },
+  "dependencies": {
+    "@ant-design/icons": "^5.0.1",
+    "@ant-design/pro-components": "^2.4.4",
+    "@umijs/max": "^4.1.7",
+    "antd": "^5.4.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.33",
+    "@types/react-dom": "^18.0.11",
+    "husky": "^9",
+    "less": "^4.2.0",
+    "less-loader": "^12.2.0",
+    "lint-staged": "^13.2.0",
+    "prettier": "^2.8.7",
+    "prettier-plugin-organize-imports": "^3.2.2",
+    "prettier-plugin-packagejson": "^2.4.3",
+    "typescript": "^5.0.3"
+  }
+}

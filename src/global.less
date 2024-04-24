@@ -1,0 +1,87 @@
+:root,
+:root[theme-mode='light'] {
+    --primary-color: #1A2139;
+    --menu-bar-bg-color: #f1f2f5;
+    --main-bg-color: #ffffff;
+    --primary-font-color: #333333;
+    --primary-border-color: #e1e1e1;
+    --minor-font-color: #666666;
+}
+
+:root,
+:root[theme-mode='dark'] {
+    --primary-color: #ffffff;
+    --primary-border-color: #181818;
+    --menu-bar-bg-color: #2C313C;
+    --main-bg-color: #21252B;
+    --primary-font-color: #ffffff;
+    --primary-border-color: #434343;
+    --minor-font-color: #c3c3c3;
+}
+
+
+@primary-color: var(--primary-color);
+@menu-bar-bg-color: var(--menu-bar-bg-color);
+@main-bg-color: var(--main-bg-color);
+@minor-bg-color: var(--main-bg-color);
+@primary-font-color: var(--primary-font-color);
+@minor-font-color: var(--minor-font-color);
+@primary-border-color: var(--primary-border-color);
+@primary-border: 1px solid var(--primary-border-color);
+
+
+/* 滚动条整体部分 */
+::-webkit-scrollbar {
+    width: 4px;
+    /* 垂直滚动条的宽度 */
+    height: 4px;
+    /* 水平滚动条的高度 */
+}
+
+/* 滚动条的滚动滑块 */
+::-webkit-scrollbar-thumb {
+    background-color: #c1c1c1;
+    border-radius: 6px;
+    /* 滑块的圆角 */
+}
+
+/* 滚动条的轨道 */
+::-webkit-scrollbar-track {
+    background-color: #f0f0f0;
+}
+
+/* 滚动条整体部分 */
+::-webkit-scrollbar {
+    -webkit-appearance: none;
+    width: 4px;
+}
+
+/* 滚动条的滚动滑块 */
+::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background-color: rgba(0, 0, 0, .5);
+    box-shadow: 0 0 1px rgba(255, 255, 255, .5);
+}
+
+/* 滚动条的轨道 */
+::-webkit-scrollbar-track {
+    background-color: #f0f0f0;
+    border-radius: 4px;
+}
+
+/* 滚动条整体部分 */
+scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+/* 滚动条的滚动滑块 */
+scrollbar-thumb {
+    background-color: #90caf9;
+    border-radius: 5px;
+}
+
+/* 滚动条的轨道 */
+scrollbar-track {
+    background-color: #eceff1;
+}

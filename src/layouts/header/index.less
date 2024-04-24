@@ -1,0 +1,48 @@
+.headerBox {
+    display: flex;
+    padding: 0 16px;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: space-between;
+
+    .logoBox {
+        display: flex;
+        gap: 16px;
+        align-items: center;
+
+        .logo {
+            width: 48px;
+            height: 48px;
+            border-radius: 4px;
+
+            img {
+                width: 100%;
+                height: 100%;
+                border-radius: 4px;
+            }
+        }
+
+        .name {
+            font-size: 24px;
+            color: @primary-color;
+        }
+    }
+
+    .rightBox {
+        display: flex;
+        height: 100%;
+        align-items: center;
+        gap: 16px;
+
+        .search {
+            font-size: 24px;
+            cursor: pointer;
+        }
+
+        .theme {
+            cursor: pointer;
+
+        }
+    }
+}

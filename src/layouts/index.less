@@ -1,0 +1,46 @@
+.pageLayout {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background-color: @main-bg-color;
+
+    .header {
+        height: 64px;
+        width: 100%;
+        background-color: @minor-bg-color;
+        // border-bottom: @primary-border;
+        color: @primary-font-color;
+    }
+
+    .content {
+
+        display: flex;
+
+
+
+        .left {
+            width: 240px;
+            height: calc(100vh - 64px);
+            flex: 1;
+        }
+
+        .right {
+            width: calc(100vw - 240px);
+            height: calc(100vh - 64px);
+
+
+            .coreContent {
+                width: 100%;
+                height: calc(100% - 50px);
+                background-color: @main-bg-color;
+                padding: 24px;
+                overflow-y: auto;
+            }
+
+            .footer {
+                width: 100%;
+                height: 50px;
+            }
+        }
+    }
+}
