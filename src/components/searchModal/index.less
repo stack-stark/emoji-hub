@@ -1,0 +1,46 @@
+.searchbox {
+    padding: 24px;
+
+    .input {
+        width: 100%;
+        height: 50px;
+    }
+
+    .nodata {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 600px;
+
+        img {
+            width: 200px;
+            height: 200px;
+        }
+
+        .text {
+            font-size: 24px;
+            color: @primary-color;
+            text-align: center;
+            margin-top: 16px;
+        }
+    }
+
+    .resBox {
+        width: 100%;
+        height: 600px;
+        overflow-y: auto;
+        display: flex;
+
+
+
+        .emojiBox {
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            align-content: flex-start;
+        }
+    }
+
+}

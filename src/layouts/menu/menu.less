@@ -4,6 +4,7 @@
     border-right: 1px solid @primary-border-color;
     background: @main-bg-color;
     padding: 16px;
+    position: relative;
 
     .title {
         font-weight: 700;
@@ -52,5 +53,21 @@
                 font-size: 20px;
             }
         }
+    }
+
+    .menuFooter {
+        position: absolute;
+        bottom: 0px;
+        left: 0px;
+        height: 45px;
+        width: 100%;
+        cursor: pointer;
+        text-align: center;
+        font-size: 18px;
+        border-top: 1px solid var(--primary-border-color);
+        color: @primary-color;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 }

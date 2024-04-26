@@ -1,14 +1,15 @@
-import { activity } from "./activity";
-import { body } from "./body";
-import { emotes } from "./emote";
-import { flag } from "./flag";
-import { food } from "./food";
-import { goods } from "./goods";
-import { journey } from "./journey";
-import { sign } from "./sign";
-import { zoon } from "./zoon";
+import { EmojiItemType } from '@/emoji';
+import { activity } from './activity';
+import { body } from './body';
+import { emotes } from './emote';
+import { flag } from './flag';
+import { food } from './food';
+import { goods } from './goods';
+import { journey } from './journey';
+import { sign } from './sign';
+import { zoon } from './zoon';
 
-export const EMOJI_DATA: Array<{ name: string; emoji: string }> = [
+export const EMOJI_DATA: Array<EmojiItemType> = [
   ...flag,
   ...body,
   ...activity,

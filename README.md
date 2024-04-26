@@ -4,7 +4,19 @@
 
 ## 关于快捷 emoji 🐉
 
-这是一个在编辑区输入`000`+ emoji 名字（中文）就可以生成 emoji 的 vs code 插件，内置三千多个 emoji，可以让我们快速生成 emoji！
+这是一个在编辑区输入匹配前缀（默认值：000，可配置）+ emoji 名字（中文）就可以生成 emoji 的 vs code 插件，内置三千多个 emoji，可以让我们快速生成 emoji！
+
+### 空白区插入
+
+直接输入前缀（默认值：000）+emoji 名字，就可以生成 emoji，例如：000 龙 即可生成 🐉
+
+![](https://raw.githubusercontents.com/stack-stark/fast-emoji/main/screenshot/example.gif)
+
+### 内容区插入
+
+输入前缀（默认值：000）+ 名字然后空格，就可以生成 emoji，例如：000+龙+空格 即可生成 🐉
+
+![](https://raw.githubusercontents.com/stack-stark/fast-emoji/main/screenshot/example2.gif)
 
 [Github 源码](https://github.com/stack-stark/fast-emoji)
 

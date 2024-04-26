@@ -1,3 +1,4 @@
+import EmojiItem from '@/components/emojiItem';
 import { CLASSIFY } from '@/constants/classify';
 import { useModel } from '@umijs/max';
 import React, { useEffect, useState } from 'react';
@@ -25,10 +26,7 @@ const HomePage: React.FC = () => {
 
     return emojis.children.map((item, index) => {
       return (
-        <div className={styles.emojiItem} key={index}>
-          <div className={styles.emoji}>{item.emoji}</div>
-          <div className={styles.name}>{item.name}</div>
-        </div>
+        <EmojiItem item={item} key={index} itemKey={item.name} />
       );
     });
   };
