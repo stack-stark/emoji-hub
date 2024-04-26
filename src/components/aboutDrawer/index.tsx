@@ -44,13 +44,13 @@ const AboutDrawer: React.FC<AboutDrawerProps> = ({
               🪧 Emoji收集于互联网，本站不拥有Emoji版权，请勿用于违法法规内容。
             </p>
             <p>
-              🔗 本站采用MIT协议全站开源于
+              🔗 本站采用MIT协议全站开源于 <Tag color="cyan">Github</Tag>
               <a
                 href="https://github.com/stack-stark/emoji-hub"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <Tag color="cyan">Github</Tag>
+                查看源码
               </a>
             </p>
           </div>
@@ -112,11 +112,9 @@ const AboutDrawer: React.FC<AboutDrawerProps> = ({
           </div>
         </div>
         <div className={styles.infoBox}>
-          <div className={styles.title}>✌️ 关于我 </div>
+          <div className={styles.title}>📨 如何联系我 </div>
           <div className={styles.info}>
-            <p>我的邮箱</p>
-            <p>我的Github</p>
-            <p>我的主页</p>
+            <p> 💬 邮箱：tostack@163.com </p>
           </div>
         </div>
       </div>
